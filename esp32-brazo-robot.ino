@@ -19,14 +19,14 @@ String esp_mac;
 int count;
 
 // WiFi
-const char* ssid = "CLARO LIZ - 2.4ghz";
-const char* password = "liz.jove73031792";
+const char* ssid = "******";
+const char* password = "*********";
 
 // MQTT
-const char *mqtt_broker = "143.198.128.180";
+const char *mqtt_broker = "**********";
 const char *topic_alarm = "robot/brazo";
-const char *mqtt_username = "admin";
-const char *mqtt_password = "public";
+const char *mqtt_username = "qwerty";
+const char *mqtt_password = "qwerty";
 const int mqtt_port = 1883;
 
 WiFiClient espClient;
